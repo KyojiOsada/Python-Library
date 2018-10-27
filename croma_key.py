@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 img_src = cv2.imread('example.png')
 img_hsv = cv2.cvtColor(img_src, cv2.COLOR_BGR2HSV)
 rgb_min = np.array([[[0, 80, 0]]], np.uint8)
